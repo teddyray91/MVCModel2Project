@@ -1,0 +1,3 @@
+<Context docBase="JSP_miniProject" path="/JSP_miniProject" reloadable="true" source="org.eclipse.jst.jee.server:JSP_miniProject" useNaimg="ture">
+	<Resource auth="Container" description="DB Connection" driverClassName="oracle.jdbc.driver.OracleDriver" maxIdle="5" maxTotal="50" maxWaitMillis="5000" name="jdbc/oracle" password="tiger" type="javax.sql.DataSource" url="jdbc:oracle:thin:@10.211.55.4:1521:XE" username="team3"/>
+ </Context>
