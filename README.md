@@ -1,2 +1,2 @@
-# jspproject
-JSP Community Web Site Project
+# MVC Model 2 Project
+MVC Model 2 Community Web Site Project
