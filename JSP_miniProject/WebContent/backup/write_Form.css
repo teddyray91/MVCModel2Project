@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+table td input.subject {
+	width: 949px;
+	height: 30px;
+}
+table td {
+	padding: 5px;
+}
+table td .board_textarea {
+	width: 948px;
+	height: 300px;
+}
+table td .writeFunc1 {
+	font-weight: bold;
+}
+table td .writeFunc2 {
+}
+div.boardFunc3 {
+	text-align: center;	
+}
+.files {
+	text-align: center;
+	visibility: hidden;
+}

@@ -1,0 +1,425 @@
+@charset "UTF-8";
+/* Page_All_page */
+*{font-family: 나눔고딕, AppleGothic, 굴림체; font-size: 11pt;}
+body{padding: 0px; margin: 0px; background: #f8f8f8;}
+
+.lo_main{
+	min-width: 1100px;
+   	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+/* Login Part */
+#lo_login{ /* Login z1 */
+	margin-top: 150px;
+	width: 600px;
+	border: 3px solid;
+	border-color: #ee6060;
+}
+.login_form{width: 480px;}/* Login z2[본문내용] */
+#fake_login_img{width:450px;}
+#fake_login_img div{
+	width:450px;
+	height:100px;
+	border: 1px solid #000000;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	background: gray;
+}
+.login_text{width:450px; height:30px;}
+.login_text p{font-size: 11pt; font-weight: bold;}
+#login_bt{width: 400px; height: 45px; font-size:12pt; margin-top: 15px;}
+.login_param{
+	width:450px;
+	height:40px;
+	padding-bottom: 20px;
+}
+.login_input{
+	width: 90%;
+	height: 100%;
+	font-family: 나눔고딕 Bold;
+	font-size: 11pt;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.login_alert_cnt{ }
+.login_alert{
+	padding-left:10px;
+	font-size:10pt;
+	color:#ee6060;
+}
+
+/* Header Part */
+#lo_head{
+	height: 50px;
+	background: #f8f8f8;
+}
+/* Navigator Part */
+#lo_nav{
+	background: #97D08F;
+}
+.lo_top_nav{
+	padding: 0px;
+	margin: 0px;
+}
+.lo_top_nav li{
+	width: 120px;
+	line-height: 50px;
+	text-align: center;
+	display: inline-block;
+	background: #97D08F;
+}
+.lo_top_nav li:hover{
+	background: #88B881;
+}
+.lo_top_nav li:active{
+	background: #88B881;
+}
+.lo_top_nav a:link {
+	text-decoration:none;
+	color: black;
+}
+.lo_top_nav a:hover {
+	text-decoration:none;
+	color: black;
+}
+.lo_top_nav a:visited {
+	text-decoration:none;
+	color: black;
+}
+
+#lo_nav_600 {
+	overflow: hidden;
+	background-color: #97D08F;
+	position: relative;
+}
+
+#lo_nav_600 #lo_nav_link {
+	display: none;
+}
+
+#lo_nav_600 a {
+	color: black;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	display: block;
+}
+
+#lo_nav_600 a.icon {
+	background: #97D08F;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+#lo_nav_600 a:hover {
+	background-color: #88B881;
+	color: black;
+}
+
+
+/*#############################  */
+
+.userdrop {
+  position: absolute;
+}
+#headlogin_text{
+	padding:10px;
+	border: 1px solid;
+}
+
+.userdrop-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.userdrop-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.userdrop a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+
+/* Content Part */
+#lo_content{
+	
+}
+.lo_content_main{/* Content 내부 틀 */
+	border-color: red;
+	width: 1100px;
+	text-align: justify;
+	margin-top: 20px;
+}
+.lo_content_notice_l{
+	float: left;
+	width:790px;
+	padding-bottom: 10px;
+}
+.lo_content_notice_r{
+	float: right;
+	width:300px;
+	padding-bottom: 10px;
+}
+.content{
+	border: 1px solid;
+	margin-bottom: 10px;
+	/* width: 545px;	 */
+}
+
+
+.main_content_title{
+	font-size: 10pt;
+	margin-left: 5px;
+}
+
+.content td{
+	font-size: 9pt;
+}
+.content td a:link {
+	color: black;
+	text-decoration: none;
+	font-size: 9pt;
+}
+.content td a:visited {
+	color: black;
+	font-size: 9pt;
+}
+
+.content th{
+	font-size: 9pt;
+}
+.admin_list td{
+	font-size: 9pt;
+}
+.admin_list th{
+	font-size: 9pt;
+}
+
+
+
+
+
+
+
+
+/* Footer Part */
+#lo_footer{
+	clear: both;
+	padding-top: 30px;
+	height: 50px;
+	background: #f8f8f8;
+}
+#foot_copyright{
+	width: 900px;
+	text-align: center;
+	height: 50px;
+}
+#foot_copyright span{
+	padding-left: 20px;
+	font-size: 10pt;
+	line-height: 50px;
+	vertical-align: middle;
+}
+
+/* Login Animation */
+/* Login Form 내부 Tag Edit */
+.login_container {
+	padding: 16px;
+}
+.login_text {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+button.login_bt {
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+}
+
+button.login_bt:hover {
+	opacity: 0.8;
+}
+.joinbtn {
+	width: auto;
+	padding: 10px 18px;
+	background-color: #4CAF50;
+	color: white;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+}
+.joinbtn:hover {
+	opacity: 0.8;
+}
+.cancelbtn {
+	width: auto;
+	padding: 10px 18px;
+	background-color: #f44336;
+	color: white;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+}
+.cancelbtn:hover {
+	opacity: 0.8;
+}
+span.psw {
+	float: right;
+	padding-top: 16px;
+	color:rgb(126,126,126);
+}
+span.psw a:link {
+	text-decoration:none;
+	color:rgb(126,126,126);
+}
+span.psw a:hover {
+	text-decoration:underline;
+	color:rgb(126,126,126);
+}
+span.psw a:visited {
+	text-decoration:none;
+	color:rgb(126,126,126);
+}
+
+/* Login Form 외부 Edit */
+button.page_login_bt {
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+}
+button.page_login_bt:hover {
+	opacity: 0.8;
+}
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+	padding-top: 60px;
+	text-align: justify;
+}
+.modal-content {
+	background-color: #fefefe;
+	margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+	border: 1px solid #888;
+	width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.animate {
+	-webkit-animation: animatezoom 0.6s;
+	animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+	from {-webkit-transform: scale(0)} 
+	to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+	from {transform: scale(0)} 
+	to {transform: scale(1)}
+}
+
+@media screen and (max-width: 600px) {
+	.lo_main{
+		min-width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	span.psw {
+		display: block;
+		float: none;
+		color:rgb(126,126,126);
+	}
+	span.psw a:link {
+		text-decoration:none;
+		color:rgb(126,126,126);
+	}
+	span.psw a:hover {
+		text-decoration:underline;
+		color:rgb(126,126,126);
+	}
+	span.psw a:visited {
+		text-decoration:none;
+		color:rgb(126,126,126);
+	}
+	.joinbtn {
+		width: 100%;
+	}
+	.cancelbtn {
+		width: 100%;
+	}
+	#lo_head{
+		width: 100%;
+	}
+	#lo_nav{
+		width: 100%;
+	}
+	.lo_top_nav{
+		width: 100%;
+	}
+	.lo_top_nav li{
+		width: 100%;
+	}
+	
+	#lo_content{
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.lo_content_main{/* Content 내부 틀 */
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.lo_content_notice_l{
+		width: 100%;
+		display:block;
+		padding-bottom: 10px;
+	}
+	.lo_content_notice_r{
+		width: 100%;
+		display:block;
+		padding-bottom: 10px;
+	}
+	.content{
+		width: 100%;
+	}
+	#lo_footer{
+		clear: both;
+		width: 100%;
+	}
+	#foot_copyright{
+		width: 100%;
+	}
+}

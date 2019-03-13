@@ -1,0 +1,80 @@
+@charset "UTF-8";
+div hr.sethr1 {
+	border: 3px solid gray;
+}
+div hr.sethr2 {
+	border: 1px solid gray;
+}
+div.lo_content_main .view_Header {
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 7px;
+}
+div.lo_content_main .view_Header_Writer {
+	display: inline-block;
+	float: right;
+	height: 30px;
+	line-height: 30px;
+	margin-right: 15px;
+}
+div.lo_content_main .view_Header_Date {
+	display: inline-block;
+	float: right;
+	height: 30px;
+	line-height: 30px;
+	margin-right: 15px;
+}
+div.lo_content_main .view_Header_ViewCount {
+	display: inline-block;
+	float: right;
+	height: 30px;
+	line-height: 30px;
+	margin-right: 15px;
+}
+div.lo_content_main .view_Content {
+	height: 300px;
+ 	overflow: auto;
+	padding-left: 7px;
+}
+div.lo_content_main .view_BoardBtn {
+	text-align: right;
+	padding-top: 10px;
+	margin-top: 10px;
+}
+div.lo_content_main .view_LikeAHate {
+	text-align: center;
+	border-bottom: 1px solid gray;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+div.lo_content_main .view_Comment {
+	height: 150px;
+	padding: 5px 7px;
+}
+div.lo_content_main .view_CommentTitle {
+	margin-bottom: 5px;
+}
+div.lo_content_main .view_CommentInputBox {
+	display: inline-block;
+}
+textarea {
+	display: inline-block;
+	width: 800px;
+	height: 100px;
+}
+div.lo_content_main .view_CommentButton {
+	display: inline-block;
+	transform: translateY(-39%);
+}
+div.lo_content_main .view_CommentButton button {
+	width: 100px;
+	height: 106px;
+}
+div.lo_content_main .view_CommentList {
+	border-bottom: 1px solid gray;	
+}
+div.lo_content_main .view_CommentList div {
+	margin: 15px 7px;
+}

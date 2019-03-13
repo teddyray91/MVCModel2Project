@@ -1,0 +1,20 @@
+@charset "UTF-8";
+#user_modify *{
+	font-size:10pt;
+}
+#user_modify .modify_main{
+	text-align: left;
+	padding-top: 10px;
+	padding-left: 10px;
+	border: 2px solid;
+	border-color: #eeee;
+}
+#user_modify span{
+	font-weight: bold;
+	font-size: 11pt;
+}
+@media screen and (max-width: 600px) {
+	#user_modify .modify_main{
+		width: 100%;
+	}
+}

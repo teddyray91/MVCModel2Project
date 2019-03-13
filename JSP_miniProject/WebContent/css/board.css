@@ -1,0 +1,193 @@
+@charset "UTF-8";
+/*  ###########   Board List   ########## */
+div.allBox {
+	width: 100%;
+}
+h1.head {
+	padding-left: 7px;
+}
+div hr.sethr {
+	border: 3px solid gray;
+}
+table.boardList{
+	border-collapse: collapse;
+	width: 100%;
+}
+table.boardList th {
+	text-align: center;
+	border-bottom: 2px solid gray;
+	padding: 10px;
+}
+table.boardList tr {
+	border-bottom: 1px solid rgb(220, 220, 220);
+}
+table.boardList tr.writeList:hover {
+	opacity: 0.3;
+}
+table.boardList td:not(.second) {
+	text-align: center;
+	padding: 10px;
+}
+table.boardList td.second {
+	width: 300px;
+}
+table.boardList td.second a:link {
+	color: black;
+	text-decoration: none;
+}
+table.boardList td.second a:visited {
+	color: rgb(220, 220, 220);
+}
+div.boardFunc {
+	text-align: right;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+/*  ###########   Board Viewer   ########## */
+div hr.sethr1 {
+	border: 3px solid gray;
+}
+div hr.sethr2 {
+	border: 1px solid gray;
+}
+div.lo_content_main .view_Header {
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 7px;
+}
+div.lo_content_main .view_Header_Writer {
+	display: inline-block;
+	float: right;
+	height: 30px;
+	line-height: 30px;
+	margin-right: 15px;
+}
+div.lo_content_main .view_Header_Date {
+	display: inline-block;
+	float: right;
+	height: 30px;
+	line-height: 30px;
+	margin-right: 15px;
+}
+div.lo_content_main .view_Header_ViewCount {
+	display: inline-block;
+	float: right;
+	height: 30px;
+	line-height: 30px;
+	margin-right: 15px;
+}
+div.lo_content_main .view_Content {
+	height: 300px;
+ 	overflow: auto;
+	padding-left: 7px;
+}
+div.lo_content_main .view_BoardBtn {
+	text-align: right;
+	padding-top: 10px;
+	margin-top: 10px;
+}
+div.lo_content_main .view_LikeAHate {
+	text-align: center;
+	border-bottom: 1px solid gray;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+div.lo_content_main .view_Comment {
+	height: 150px;
+	padding: 5px 7px;
+}
+div.lo_content_main .view_CommentTitle {
+	margin-bottom: 5px;
+}
+div.lo_content_main .view_CommentInputBox {
+	display: inline-block;
+}
+textarea {
+	display: inline-block;
+	width: 800px;
+	height: 100px;
+}
+div.lo_content_main .view_CommentButton {
+	display: inline-block;
+	transform: translateY(-45%);
+}
+div.lo_content_main .view_CommentButton button {
+	width: 100px;
+	height: 106px;
+}
+div.lo_content_main .view_CommentList {
+	border-bottom: 1px solid gray;	
+}
+div.lo_content_main .view_CommentList div {
+	margin: 15px 7px;
+}
+
+/*  ###########   Board Writer   ########## */
+table td input.subject {
+	width: 949px;
+	height: 30px;
+}
+table td {
+	padding: 5px;
+}
+table td .board_textarea {
+	width: 948px;
+	height: 300px;
+}
+table td .writeFunc1 {
+	font-weight: bold;
+}
+table td .writeFunc2 {
+	
+}
+div.boardFunc3 {
+	text-align: center;	
+}
+.files {
+	text-align: center;
+	visibility: hidden;
+}
+
+@media screen and (max-width: 600px) {
+	table.boardList *{
+		font-size:9pt;
+	}
+	table.boardList td.second {
+	width: 160px;
+	text-align: center;
+	}
+	table td input.subject {
+	width: 450px;
+	height: 30px;
+	}
+	table td .board_textarea {
+	width: 450px;
+	height: 300px;
+	}
+	textarea {
+	display: inline-block;
+	width: 410px;
+	height: 100px;
+	}
+	div.lo_content_main .view_CommentButton button {
+	width: 50px;
+	height: 100px;
+	}
+	#boardWirte th{
+	font-size: 10pt;
+	width: 30px;
+	}
+	table td .writeFunc1 {
+	font-weight: bold;
+	
+	}
+	table td .writeFunc2 {
+	width:80px;	
+	}
+	#fupload{
+	width:200px; 
+	}
+	
+}
